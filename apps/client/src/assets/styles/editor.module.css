@@ -1,0 +1,49 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 1.5rem;
+  height: 4rem;
+  background-color: #f3f3f3;
+  border-bottom: 1px solid #ebebeb;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.04);
+  z-index: 1;
+}
+
+._header {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+._title {
+  margin-left: 5px;
+  padding: 5px;
+  border: none;
+  font-size: 1rem;
+  background: transparent;
+  color: #333;
+}
+
+._title:focus {
+  outline: none;
+}
+
+.logout {
+  background: transparent;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+  padding: 10px 15px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.logout:hover {
+  background: rgba(0, 0, 0, 0.1);
+}
+
+.cursor {
+  height: 100%;
+  animation: blink 1s infinite;
+}
